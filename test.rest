@@ -1,0 +1,32 @@
+GET  HTTP://localhost:4000/product
+###
+Get   HTTP://localhost:4000/product/63fcdd2c8a0744c069ac8c92
+
+###
+POST  HTTP://localhost:4000/product
+Content-Type: application/json
+Content-Type: application/json
+
+{
+    "title" : "Samsung S25 pro",
+    "price" : 39000
+}
+
+###
+PATCH   HTTP://localhost:4000/product/63fcdd2c8a0744c069ac8c92
+Content-Type: application/json
+
+{
+    "title" : "Iphone 14 pro",
+    "price" : 39000
+}
+
+###
+DELETE   HTTP://localhost:4000/product/63fcdd2c8a0744c069ac8c92
+
+###
+
+POST https://ardyl-sibi-test.hf.space/run/predict
+Content-Type: application/json
+
+{"data":["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg=="]}
